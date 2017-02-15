@@ -9,7 +9,7 @@ def hello():
 # sleep for a few seconds, to allow livelyness probe to fail sometimes 
 	sometime=randint(0,4) 
 	time.sleep(sometime)
-    return "Hello NIS!"
+    return "Hello NIS (with sleep)!" 
 
 if __name__ == "__main__":
     application.run()
